@@ -1,7 +1,9 @@
+import streamlit as st
 import pandas as pd
-import pickle  # Changed from joblib to pickle
+import pickle
 import numpy as np
 import os
+
 
 # --- PAGE CONFIG ---
 st.set_page_config(page_title="Iris Classifier", page_icon="🌸")
